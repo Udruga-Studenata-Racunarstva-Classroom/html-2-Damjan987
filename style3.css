@@ -1,63 +1,37 @@
-#title {
-  text-align: center;
-  color: white;
+body {
+	background-color: #000085;
+	color: white;
 }
 
-#description {
-  text-align: center;
-  color: white;
+header {
+	text-align: center;
 }
 
 #survey-form {
   background-color: #000030;
-  position: absolute;
-  top:  79%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-  margin: 0px 0px 70px 0px;
-  padding: 30px 30px 30px 30px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  width: 80%;
+  margin: 0 auto;
 }
 
-#name {
-	margin-bottom: 30px;
-	width: 100%;
-	padding: 10px 0px 10px 0px;
-	border-radius: 7px;
+input, textarea, section {
+	display: block;
 }
 
-#email {
-    margin-bottom: 30px;
-	width: 100%;
-	padding: 10px 0px 10px 0px;
-	border-radius: 7px;
-}
-
-#number {
-	margin-bottom: 30px;
-	width: 100%;
-	padding: 10px 0px 10px 0px;
-	border-radius: 7px;
-}
-
-#dropdown {
-    margin-bottom: 30px;
-	width: 100%;
-	padding: 10px 0px 10px 0px;
-	border-radius: 7px;
-}
-
-#dropdown2 {
-    margin-bottom: 30px;
-	width: 100%;
-	padding: 10px 0px 10px 0px;
-	border-radius: 7px;
+#name, #email, #number, #dropdown, #dropdown2 {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 7px;
 }
 
 #area {
 	margin-bottom: 30px;
 	width: 100%;
 	height: 100px;
+	resize: vertical; 
 }
 
 #submit {
@@ -67,6 +41,3 @@
   margin-bottom: 20px;
 }
 
-body {
-	background-color: #000085;
-}
