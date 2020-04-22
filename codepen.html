@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjezba Forme</title>
+	<link rel="stylesheet" type="text/css" href="style3.css"> 
+</head>
+<body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+	<header>
+		<h1>freeCodeCamp Survey Form</h1>
+
+		<p>Thank you for taking the time to help us improve the platform</p>
+	</header>
+
+	<form id="survey-form">
+	  <label id="name-label" for="name">Name</label><br>
+	  <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+	  
+	  <label id="email-label" for="email">Email</label><br>
+	  <input type="email" id="email" name="email" placeholder="Enter your Email" required><br>
+	  
+	  <label id="number-label" for="number">Age(optional)</label><br>
+	  <input type="number" id="number" name="age" placeholder="Age" min="1" max="130"><br>
+
+	  <label>Which option best describes your current role?</label><br>
+	  <select id="dropdown">
+	    <option selected="selected" disabled>Select a current role</option>
+		<option>Student</option>
+		<option>Full Time Job</option>
+		<option>Full Time Learner</option>
+	  </select>
+
+	  <label>Would you recommend freeCodeCamp to a friend?</label>
+	  <input type="radio" id="def" name="option" value="Definitely">
+	  <label for="def">Definitely</label>
+	  <input type="radio" id="may" name="option" value="Maybe">
+	  <label for="may">Maybe</label>
+	  <input type="radio" id="ns" name="option" value="Not sure">
+	  <label for="ns">Not sure</label>
+	  
+	  <br>
+	  <br>
+	  
+	  <label>What is your favorite feature of freeCodeCamp?</label>
+	  <select id="dropdown2">
+	      <option selected="selected" disabled>Select an feature?</option>
+	      <option>Chellenges</option>
+		  <option>Projects</option>
+		  <option>Community</option>
+		  <option>Open Source</option>
+	  </select>	  
+
+	  <label>What would you like to see improved? (Check all that apply)</label>
+	  <input type="checkbox" id="option1" name="vehicle1" value="Bike">
+	  <label for="option1">Front-end Projects</label>
+	  <input type="checkbox" id="option2" name="vehicle2" value="Car">
+	  <label for="option2">Back-end Projects</label>
+	  <input type="checkbox" id="option3" name="vehicle3" value="Boat">
+	  <label for="option3">Data Visualization</label>
+	  
+	  <br>
+	  <br>
+	  
+	  <label>Any comments or suggestions?</label>
+	  <textarea id="area"></textarea>
+	  
+	  <button id="submit">Submit</button>
+	</form>
+</body>
+</html>
